@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido al Mundo del 5G</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Fuentes globales */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Título destacado */
+        h1 {
+            font-size: 3.5em;
+            font-weight: bold;
+            color: #1e90ff; /* Azul brillante para el título */
+            text-align: center;
+            margin-top: 50px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Estilo de la imagen en el footer */
+        footer img {
+            width: 100%;
+            height: auto;
+            margin-top: 30px;
+            border-top: 5px solid #007BFF; /* Línea de separación */
+        }
+
+        /* Estilo de la navegación */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            background-color: #007BFF;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #0056b3; /* Color al pasar el ratón */
+        }
+
+        /* Secciones de contenido */
+        section {
+            margin: 30px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #2a2a2a;
+            font-size: 2.2em;
+            margin-bottom: 10px;
+        }
+
+        section p {
+            font-size: 1.1em;
+            color: #555555;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        section ul {
+            font-size: 1.1em;
+            margin-top: 10px;
+        }
+
+        section ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Estilo del footer */
+        footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        footer p {
+            color: #333;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Título destacado -->
+        <h1>Bienvenido al Mundo del 5G</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="formulario.html">Formulario</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>¿Qué es el 5G?</h2>
+        <p>El 5G es la quinta generación de tecnología móvil que promete velocidades más rápidas, mayor capacidad y mejor conectividad. Con esta nueva red, se transformarán diversas industrias, brindando avances significativos en áreas como la medicina, la automoción y la educación.</p>
+        
+        <h2>5G en la Medicina</h2>
+        <p>En el campo de la medicina, el 5G puede mejorar la atención al paciente, permitiendo la transmisión en tiempo real de datos médicos de alta calidad. Con su baja latencia y alta capacidad, los médicos podrán realizar operaciones asistidas a distancia, como la cirugía robótica. Además, el 5G mejorará los sistemas de monitoreo remoto de pacientes y el uso de dispositivos conectados para el seguimiento continuo de su salud.</p>
+
+        <h2>5G en la Automoción</h2>
+        <p>El 5G tiene el potencial de revolucionar la industria automotriz, permitiendo la comunicación en tiempo real entre vehículos (V2V) y con la infraestructura vial (V2I). Esto mejora la seguridad al prevenir accidentes, y facilita el desarrollo de vehículos autónomos que pueden tomar decisiones en tiempo real basadas en la información que reciben de otros vehículos y de su entorno. Además, la conectividad mejorada permitirá actualizaciones remotas y mantenimiento preventivo para los vehículos.</p>
+
+        <h2>5G en la Educación</h2>
+        <p>En el ámbito educativo, el 5G permitirá experiencias de aprendizaje más inmersivas y colaborativas. Gracias a su alta velocidad, los estudiantes podrán acceder a contenidos educativos en 4K o participar en clases virtuales con baja latencia. Además, las tecnologías como la realidad aumentada (AR) y la realidad virtual (VR) podrán integrarse de manera más efectiva, proporcionando simulaciones interactivas y entornos de aprendizaje dinámicos.</p>
+
+        <p>Para obtener más detalles sobre el 5G, explora las siguientes secciones:</p>
+        <ul>
+            <li><a href="multimedia.html">Ver Videos y Audios sobre 5G</a></li>
+            <li><a href="formulario.html">Participa en una Encuesta sobre 5G</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <!-- Imagen al final de la página -->
+        <img src="images/5g-image.jpg" alt="Imagen del 5G">
+        <p>&copy; 2025 Telecomunicaciones 5G</p>
+    </footer>
+</body>
+</html>
